@@ -28,5 +28,13 @@
     </pluginManagement>
   </build>
 
+  <distributionManagement>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/sebalooc-35/spring-context-archetype</url>
+    </repository>
+</distributionManagement>
+
+
   <url>http://www.example.com</url>
 </project>
