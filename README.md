@@ -45,8 +45,7 @@ If you've already configured **Maven to access GitHub Packages**, **skip this st
        </server>
    </servers>
    ```
-   **Replace `YOUR_GITHUB_USER`** with your **GitHub Personal User**.
-   **Replace `YOUR_GITHUB_TOKEN`** with your **GitHub Personal Access Token**.
+   **Replace `YOUR_GITHUB_USER`** with your **GitHub Personal User and `YOUR_GITHUB_TOKEN`** with your **GitHub Personal Access Token**.
 
 3. Save and exit (`CTRL + X`, then `Y`, then `Enter`).
 
