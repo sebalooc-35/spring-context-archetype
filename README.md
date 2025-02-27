@@ -40,11 +40,12 @@ If you've already configured **Maven to access GitHub Packages**, **skip this st
    <servers>
        <server>
            <id>github</id>
-           <username>sebalooc35</username>
+           <username>YOUR_GITHUB_USER</username>
            <password>YOUR_GITHUB_TOKEN</password>
        </server>
    </servers>
    ```
+   **Replace `YOUR_GITHUB_USER`** with your **GitHub Personal User**.
    **Replace `YOUR_GITHUB_TOKEN`** with your **GitHub Personal Access Token**.
 
 3. Save and exit (`CTRL + X`, then `Y`, then `Enter`).
@@ -98,19 +99,16 @@ Now that your Maven is configured to use GitHub Packages, you can generate a new
 ### **1️⃣ Run This Command to Create a New Project**
 ```sh
 mvn archetype:generate \
-    -DarchetypeGroupId=com.mycompany \
+    -DarchetypeGroupId=org.example \
     -DarchetypeArtifactId=spring-context-archetype \
-    -DarchetypeVersion=1.0.0 \
-    -DgroupId=org.example \
+    -DarchetypeVersion=1.0.1 \
+    -DgroupId=com.mycompany \
     -DartifactId=my-spring-project \
     -DinteractiveMode=false
 ```
 
 **Replace:**
-- `com.mycompany` → Your **archetype group ID**.
-- `spring-context-archetype` → Your **archetype artifact ID**.
-- `1.0.0` → The **version of your archetype**.
-- `org.example` → The **group ID of your new project**.
+- `com.mycompany` → The **group ID of your new project**.
 - `my-spring-project` → The **name of the new project**.
 
 ---
