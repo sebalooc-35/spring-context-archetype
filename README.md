@@ -55,10 +55,12 @@ If you've already configured **Maven to access GitHub Packages**, **skip this st
 If you've already configured this, **skip this step**.
 
 1. Open `~/.m2/settings.xml` again:
+
    ```sh
    nano ~/.m2/settings.xml
    ```
 2. Add the following under `<settings>`:
+
    ```xml
    <mirrors>
        <mirror>
@@ -142,17 +144,13 @@ java -jar target/my-spring-project-1.0.0.jar
 ### ❓ **Getting a "Could Not Resolve Archetype" Error?**
 - Ensure your **GitHub repository URL** is correctly set inside `settings.xml`.
 - Try running:
+
   ```sh
   mvn clean install
   ```
   to refresh local package data.
 
 ---
-
-# 🎯 **Final Thoughts**
-✅ **This guide is modular**—you can skip sections you’ve already configured.  
-✅ **No more boilerplate**—just generate, build, and run!  
-✅ **Now share your archetype and help others!** 🚀🔥
 
 💬 **If you found this useful, let me know!** 😊
 
