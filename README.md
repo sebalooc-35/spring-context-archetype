@@ -127,7 +127,7 @@ Now that your Maven is configured to use GitHub Packages, you can generate a new
 mvn archetype:generate \
     -DarchetypeGroupId=org.example \
     -DarchetypeArtifactId=spring-context-archetype \
-    -DarchetypeVersion=1.0.1 \
+    -DarchetypeVersion=1.0.2 \
     -DgroupId=com.mycompany \
     -DartifactId=my-spring-project \
     -DinteractiveMode=false
