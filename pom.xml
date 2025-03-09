@@ -6,7 +6,7 @@
 
   <groupId>org.example</groupId>
   <artifactId>spring-context-archetype</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <packaging>maven-archetype</packaging>
 
   <name>spring-context-archetype</name>
